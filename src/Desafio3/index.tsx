@@ -3,6 +3,9 @@ import {useState} from 'react';
 /* TODO
   O componente abaixo está com problemas. Existem muitos códigos desnecessários.
   Resolva, Refatore o código e simplifique.
+
+  Explicação: Foi removido Fragmentos desnecessários, além de redundância em for, o que pode deixar a página lenta, 
+  também foi utilizado a propriedade key.
 */
 
 export const Desafio3 = () => {
