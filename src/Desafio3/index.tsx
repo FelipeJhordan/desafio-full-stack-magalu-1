@@ -5,35 +5,17 @@ import {useState} from 'react';
   Resolva, Refatore o código e simplifique.
 */
 
-export const Desafio3 = ()=> {
-  const [list, setList] = useState([
-    1, 2
-  ])
-
+export const Desafio3 = () => {
+  const [list, setList] = useState([1, 2])
 
   return (
-    <>
-      <div>
-        {(()=>{
-          const quantidade = list.length
-          return (
-            <>
-              {
-                (()=>{
-                  return (
-                    <>
-                      <span> quantidade: {quantidade}</span>
-                      <ul>
-                        {(()=>list.map(item=><li>item: {item}</li>))()}
-                      </ul>
-                    </>
-                  )
-                })()
-              }
-            </>
-          )
-        })()}
-      </div>
-    </>
+    <div>
+      <span> quantidade: {list.length}</span>
+      <ul>
+        {list.map((item) => (
+          <li key={item}>item: {item}</li>
+        ))}
+      </ul>
+    </div>
   )
 }
