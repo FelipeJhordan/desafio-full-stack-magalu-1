@@ -12,6 +12,12 @@ import React, {useEffect, useState} from 'react';
   - Não usar mais de um useEffect.
   - O cálculo do total deverá ser feito no useEffect.
   - As alterações do estados da lista e total deverá ocorrer no useEffect.
+
+
+  // Explicação
+  O useEffect estava referenciando a lista como listener, o que resulta em qualquer modificação que é feita nesse 
+  atributo gera um reenderização, só que dentro do useEffect também altera o valor da lista, o que fica em um 
+  ciclo enfinito.
 */
 
 export const Desafio4 = () => {
@@ -25,7 +31,7 @@ export const Desafio4 = () => {
     const totalCount = count1 + count2 + count3;
     setTotal(totalCount)
     setList([...list, totalCount])
-  },[count3, count2, list])
+  },[count1, count2, count3])
 
   const addCount1 = ()=>setCount1(count1 + 1)
   const addCount2 = ()=>setCount2(count2 + 1)
