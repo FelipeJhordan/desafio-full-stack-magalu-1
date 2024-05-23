@@ -10,13 +10,12 @@ import {Desafio5} from './Desafio5';
 function App() {
 
   return (
-    <div className="App">
+     <div className="App">
       {/* <Desafio1 /> */}
-      {/* 
-      <Desafio3 />
-      <Desafio4 />
-      <Desafio5 /> */}
-      <Desafio2 />
+      {/* <Desafio2 /> */}
+      {/* <Desafio3 /> */}
+      {/* <Desafio4 /> */}
+      <Desafio5 />
     </div>
   )
 }
