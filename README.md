@@ -13,6 +13,7 @@ Para ver os arquivos acesse a pasta `src` e nela você encontrará as sub-pastas
 - Desafio5
 
 ### Imagem da Resolução 
+![image](https://github.com/FelipeJhordan/desafio-full-stack-magalu-1/assets/44248690/211dcf21-e827-472d-b7d3-7837418d8544)
 
 ## Rodando Aplicação
 com yarn:
