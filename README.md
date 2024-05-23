@@ -2,7 +2,7 @@
 
 
 ### SOLUÇÃO DESAFIO - (PARTE 1)
-Você irá encontrar as soluções para os desafios separado por módulos.
+Você irá encontrar as soluções para os desafios separado por módulos.
 Para ver os arquivos acesse a pasta `src` e nela você encontrará as sub-pastas:
 
 - Desafio1
