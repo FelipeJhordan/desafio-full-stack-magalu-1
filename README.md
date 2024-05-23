@@ -1,9 +1,8 @@
 ## FRONT-END
 
 
-### RESOLUÇÃO DE PROBLEMAS - (PARTE 1)
-Neste desafio você encontrará alguns arquivos já prontos, porém eles estão com alguns problemas.
-
+### SOLUÇÃO DESAFIO - (PARTE 1)
+Você irá encontrar as soluções para os desafios separado por módulos.
 Para ver os arquivos acesse a pasta `src` e nela você encontrará as sub-pastas:
 
 - Desafio1
@@ -12,8 +11,7 @@ Para ver os arquivos acesse a pasta `src` e nela você encontrará as sub-pastas
 - Desafio4
 - Desafio5
 
-### Imagem da Resolução 
-![image](https://github.com/FelipeJhordan/desafio-full-stack-magalu-1/assets/44248690/211dcf21-e827-472d-b7d3-7837418d8544)
+
 
 ## Rodando Aplicação
 com yarn:
@@ -35,3 +33,7 @@ com npm:
 ```BASH
 npm run test
 ```
+
+
+### Imagem da Resolução 
+![image](https://github.com/FelipeJhordan/desafio-full-stack-magalu-1/assets/44248690/211dcf21-e827-472d-b7d3-7837418d8544)
